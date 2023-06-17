@@ -1,7 +1,13 @@
 import { defineConfig } from 'umi'
 
 export default defineConfig({
-  routes: [{ path: '/', component: 'index' }],
+  routes: [
+    { path: '/', component: 'index' },
+    {
+      path: '/currentPool',
+      component: 'currentPool',
+    },
+  ],
 
   npmClient: 'yarn',
   tailwindcss: {},
