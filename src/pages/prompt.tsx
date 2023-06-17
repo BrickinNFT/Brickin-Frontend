@@ -10,13 +10,13 @@ export default function Prompt() {
                 <div className="flex ">
                     <div className="w-[420px] h-[616px] bg-[#fff] rounded-2xl flex flex-col justify-evenly" >
                         <div className="flex items-center text-[#344054] text-[24px] ">
-                            <img className='pl-[25px]' src={checkBox} alt=""/>
+                            <img className='pl-[25px] w-[60px]' src={checkBox} alt=""/>
                             <span className='pl-[15px]'>Collections</span>
                         </div>
                         <span className='text-[#D0D5DD] pl-[25px] text-[24px]'>
                         Pool
                         </span>
-                        <div className='h-[352px] flex flex-col justify-around text-[#344054] pl-[25px] text-[24px] border border-t-#EAECF0  border-b-#EAECF0'>
+                        <div className='h-[352px] flex flex-col justify-around text-[#344054] pl-[25px] text-[24px] border-0 border-t border-b border-t-[#EAECF0]  border-b-[#EAECF0]'>
                             <div>Changelog</div>
                             <div>Slack Community</div>
                             <div>Support</div>

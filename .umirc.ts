@@ -2,7 +2,11 @@ import { defineConfig } from 'umi'
 
 export default defineConfig({
   routes: [
-      { path: '/', component: 'index' },
+    { path: '/', component: 'index' },
+    {
+      path: '/currentPool',
+      component: 'currentPool',
+    },
     {path:'/prompt',component:'prompt'}
   ],
 
