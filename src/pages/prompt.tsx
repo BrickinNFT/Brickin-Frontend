@@ -19,7 +19,7 @@ export default function Prompt() {
               <div className=" cursor-pointer">Support</div>
               <div className=" cursor-pointer">API</div>
             </div>
-            <div className="text-[#344054] pl-[25px] text-[24px] ">Log out</div>
+            <div className="text-[#344054] pl-[25px] text-[24px] cursor-pointer">Log out</div>
           </div>
         </div>
         {/*右侧*/}
