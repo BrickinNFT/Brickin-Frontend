@@ -2,12 +2,14 @@ import { defineConfig } from 'umi'
 
 export default defineConfig({
   routes: [
-    { path: '/', component: 'index' },
+    { path: '/', component: 'createPool' },
+
+    { path: '/prompt', component: 'prompt' },
     {
       path: '/currentPool',
       component: 'currentPool',
     },
-    { path: '/prompt', component: 'prompt' },
+    { path: '/createPool', component: 'createPool' },
   ],
 
   npmClient: 'yarn',

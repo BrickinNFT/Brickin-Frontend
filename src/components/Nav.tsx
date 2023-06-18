@@ -11,10 +11,11 @@ const nav = [
 ]
 
 interface Props {
-  currentComponent: string
+  currentNav: string
 }
+
 export default function Nav(props: Props) {
-  const { currentComponent } = props
+  const { currentNav } = props
   return (
     <nav className="flex items-center">
       <div className=" rounded-2xl flex flex-col items-start w-[272px] bg-white border border-[#EAECF0] border-solid">
@@ -34,7 +35,7 @@ export default function Nav(props: Props) {
                 </li>
               )
             }
-            if (item.name === currentComponent) {
+            if (item.name === currentNav) {
               return (
                 <li key={index} className="flex items-center p-3 cursor-pointer">
                   <img src={checkBox} alt="" className="w-6 h-6 mr-2" />
