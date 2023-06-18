@@ -3,8 +3,6 @@ import chain_logo from '@/assets/chain_logo.png'
 import token from '@/assets/token.png'
 import ntfs from '@/assets/nfts.png'
 import step_1 from '@/assets/step_1.png'
-import step_2 from '@/assets/step_2.png'
-import step_3 from '@/assets/step_3.png'
 import add from '@/assets/add.png'
 import transfer from '@/assets/transfer.png'
 export default function PoolOne() {
