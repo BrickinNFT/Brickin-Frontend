@@ -5,7 +5,7 @@ import pool_1 from '@/assets/pool_1.png'
 import pool_2 from '@/assets/pool_2.png'
 
 export default function currentPool() {
-  const [currentComponent, setCurrentComponent] = useState('Pool')
+  const [currentNav, setCurrentNav] = useState('Pool')
   const [poolInfo, setPoolInfo] = useState({
     trading: 1,
     buy: 0,
@@ -36,7 +36,7 @@ export default function currentPool() {
   return (
     <div className="flex justify-center items-center">
       <div className="flex-[3]">
-        <Nav currentComponent={currentComponent}></Nav>
+        <Nav currentNav={currentNav}></Nav>
       </div>
       <div className="flex-[9]">
         <div className="text-gray font-bold flex flex-col items-center">
