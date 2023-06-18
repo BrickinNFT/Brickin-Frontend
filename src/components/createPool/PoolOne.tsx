@@ -19,7 +19,7 @@ export default function PoolOne() {
       <div className="flex flex-col items-center text-[20px] text-gray mb-4">
         <span className="font-bold">Step 1/3 : Select Pool Type</span>
         <img src={step_1} alt="" />
-        <span className="font-bold text-[12px] mt-[-30px]">Step 1/3 : Select Pool Type</span>
+        <span className="font-bold text-[12px] mt-[-30px] w-2/3 flex justify-start">Step 1/3 : Select Pool Type</span>
       </div>
       <div className="flex justify-evenly w-full">
         <div className="flex flex-col items-center p-6 gap-2 w-[300px] h-96 bg-white shadow-pool rounded-xl">

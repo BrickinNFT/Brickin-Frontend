@@ -9,6 +9,8 @@ module.exports = {
         purple: '#7f56D9',
         gray: '#475467',
         pink: '#E9D7FE',
+        placeholder: '#667085',
+        'input-border': '#D0D5DD',
       },
     },
   },

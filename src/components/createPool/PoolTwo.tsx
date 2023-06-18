@@ -21,7 +21,7 @@ export default function PoolOne() {
           <button className="bg-pink rounded-lg px-4 py-2 text-[#fff] cursor-pointer">Next</button>
         </div>
         <img src={step_2} alt="" />
-        <span className="font-bold text-[12px] mt-[-30px]">Step 2/3 : Select Pool Type</span>
+        <span className="font-bold text-[12px] mt-[-30px] w-2/3 flex justify-center">Step 2/3 : Select Pool Type</span>
       </div>
       <div className="flex flex-col">
         <div className=" text-gray flex flex-col mb-2">
