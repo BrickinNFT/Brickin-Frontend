@@ -8,6 +8,12 @@ export default defineConfig({
       component: 'currentPool',
     },
     { path: '/prompt', component: 'prompt' },
+    {
+      path:'/processingScreen',component:'processingScreen'
+    },
+    {
+      path:'/successScreen',component:'successScreen'
+    }
   ],
 
   npmClient: 'yarn',
