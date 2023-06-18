@@ -7,7 +7,7 @@ export default defineConfig({
       path: '/currentPool',
       component: 'currentPool',
     },
-    {path:'/prompt',component:'prompt'}
+    { path: '/prompt', component: 'prompt' },
   ],
 
   npmClient: 'yarn',
